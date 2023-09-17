@@ -7,7 +7,6 @@ from llama_index.indices.composability import ComposableGraph
 from llama_index.storage import StorageContext
 from llama_index import TreeIndex, SummaryIndex
 from llama_index.indices.loading import load_graph_from_storage
-import ipdb 
 
 from llama_index.indices.loading import load_graph_from_storage
 from llama_index.storage import StorageContext
