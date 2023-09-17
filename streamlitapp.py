@@ -54,6 +54,6 @@ if st.session_state.messages[-1]["role"] != "assistant":
             response = query_engine.query(prompt)
             #ipdb.set_trace()
             st.write(response.response)
-            st.write(response.get_formatted_sources())
+            #st.code(response.get_formatted_sources())
             message = {"role": "assistant", "content": response.response}
             st.session_state.messages.append(message) # Add response to message history        
